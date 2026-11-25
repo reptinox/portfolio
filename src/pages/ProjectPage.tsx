@@ -30,7 +30,9 @@ function Chapter({ section }: { section: ProjectSection }) {
         </dl>
       )}
       {section.images && section.images.length > 0 && (
-        <div className="case-gallery">
+        <div className={`case-gallery ${
+          section.label === 'High-fidelity design' ? 'prototype-gallery' : ''
+        }`}>
           {section.images.map((image) => <Figure key={image.src} image={image} />)}
         </div>
       )}

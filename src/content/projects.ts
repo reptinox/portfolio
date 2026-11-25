@@ -248,7 +248,6 @@ export const projects: Project[] = [
           {
             src: 'images/IndwellEmpathyMap.jpg',
             alt: 'Empathy map exploring the needs of Indwell users',
-            caption: 'Identifying user needs, challenges, and motivations.',
           },
         ],
       },
@@ -281,7 +280,6 @@ export const projects: Project[] = [
           {
             src: 'images/IndwellMindMap.jpg',
             alt: 'Mind map exploring potential features for Indwell',
-            caption: 'Exploring and evaluating potential solutions through mind mapping.',
           },
         ],
       },
@@ -310,8 +308,16 @@ export const projects: Project[] = [
               'Consider how users move between finding Scripture, practicing memorization, and managing their preferences.',
           },
         ],
-
-        // Add your actual sketches and low-fidelity prototypes here.
+        images: [
+          {
+            src: 'images/IndwellLowFidelity1.jpg',
+            alt: 'Initial low-fidelity interface sketches',
+          },
+          {
+            src: 'images/IndwellLowFidelity2.jpg',
+            alt: 'Additional low-fidelity interface sketches',
+          },
+        ],
       },
 
       {
@@ -338,8 +344,32 @@ export const projects: Project[] = [
               'Layouts accommodate different screen sizes while maintaining readable content and accessible controls.',
           },
         ],
-
-        // Add your high-fidelity prototypes and screenshots here.
+        images: [
+          {
+            src: 'images/IndwellHighFidelity1.jpg',
+            alt: 'High-fidelity Indwell home prototype',
+          },
+          {
+            src: 'images/IndwellHighFidelity2.jpg',
+            alt: 'High-fidelity Indwell bible prototype',
+          },
+          {
+            src: 'images/IndwellHighFidelity3.jpg',
+            alt: 'High-fidelity Indwell save popup prototype',
+          },
+          {
+            src: 'images/IndwellHighFidelity4.jpg',
+            alt: 'High-fidelity Indwell folders prototype',
+          },
+          {
+            src: 'images/IndwellHighFidelity5.jpg',
+            alt: 'High-fidelity Indwell memory prototype',
+          },
+          {
+            src: 'images/IndwellHighFidelity6.jpg',
+            alt: 'High-fidelity Indwell reminders prototype',
+          },
+        ],
       },
 
       {

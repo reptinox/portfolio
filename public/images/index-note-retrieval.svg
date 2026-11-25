@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 278" role="img" aria-labelledby="title description">
+  <title id="title">Index bookmark-retrieval wireframe</title>
+  <desc id="description">A search for keyboard focus matches the saved note “keyboard focus checklist” on a bookmark titled Interface patterns.</desc>
+  <defs>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r=".9" fill="#b5b0c6"/>
+    </pattern>
+  </defs>
+  <rect width="420" height="278" fill="#e5e0ed"/>
+  <rect width="420" height="278" fill="url(#dots)"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#302d35">
+    <text x="30" y="33" font-size="18" font-weight="600">Search library</text>
+    <rect x="29" y="45" width="362" height="50" rx="6" fill="#fdfbf7" stroke="#57535b" stroke-width="1.5"/>
+    <g fill="none" stroke="#585361" stroke-width="2.5" stroke-linecap="round">
+      <circle cx="54" cy="68" r="7"/><path d="m59.5 73.5 6 6"/>
+    </g>
+    <text x="80" y="78" font-size="23">keyboard focus</text>
+    <path d="M56 96v22m-6-6 6 6 6-6" fill="none" stroke="#65567b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="29" y="126" width="362" height="128" rx="6" fill="#fdfbf7" stroke="#57535b" stroke-width="1.5"/>
+    <text x="47" y="160" font-family="Georgia, serif" font-size="25">Interface patterns</text>
+    <path d="M48 174h323" stroke="#d5d0d6"/>
+    <text x="47" y="199" font-size="17" font-weight="600" fill="#5c5368">My note</text>
+    <rect x="45" y="208" width="144" height="27" rx="2" fill="#e6db99"/>
+    <text x="48" y="230" font-size="21">keyboard focus checklist</text>
+  </g>
+</svg>

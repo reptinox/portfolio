@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 278" role="img" aria-labelledby="title description">
+  <title id="title">Waypoint room-search wireframe</title>
+  <desc id="description">Searching for L104 returns Campus Library, east entrance, and keeps the room number beside the arrival map.</desc>
+  <defs>
+    <pattern id="paper-grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M16 0H0v16" fill="none" stroke="#d6bba8" stroke-width=".75"/>
+    </pattern>
+    <clipPath id="map"><rect x="279" y="145" width="91" height="92" rx="3"/></clipPath>
+  </defs>
+  <rect width="420" height="278" fill="#f3e1d1"/>
+  <rect width="420" height="278" fill="url(#paper-grid)"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#242824">
+    <text x="30" y="33" font-size="18" font-weight="600">Search campus</text>
+    <rect x="29" y="45" width="362" height="50" rx="6" fill="#fdfaf5" stroke="#545650" stroke-width="1.5"/>
+    <g fill="none" stroke="#565b50" stroke-width="2.5" stroke-linecap="round">
+      <circle cx="54" cy="68" r="7"/><path d="m59.5 73.5 6 6"/>
+    </g>
+    <text x="80" y="78" font-size="24">L104</text>
+    <path d="M56 96v22m-6-6 6 6 6-6" fill="none" stroke="#37499c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="29" y="126" width="362" height="128" rx="6" fill="#fdfaf5" stroke="#545650" stroke-width="1.5"/>
+    <text x="47" y="158" font-size="23" font-weight="700">Campus Library</text>
+    <text x="47" y="190" font-size="22" fill="#33449a">East entrance</text>
+    <text x="47" y="220" font-size="19" fill="#545850">Room L104</text>
+    <g clip-path="url(#map)">
+      <rect x="279" y="145" width="91" height="92" fill="#dce2cf"/>
+      <g stroke="#fdfaf5" stroke-width="7" fill="none"><path d="m267 177 120 39m-75-82-19 116m73-115-16 115"/></g>
+      <path d="m304 160 21 5-3 13 10 2-4 16-31-6z" fill="#a2ac95" stroke="#78826e"/>
+      <path d="m283 217 51-15 3-13" fill="none" stroke="#37499c" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+      <path d="M337 193s-9-9-9-16a9 9 0 1 1 18 0c0 7-9 16-9 16Z" fill="#37499c"/>
+      <circle cx="337" cy="177" r="3.3" fill="#fdfaf5"/>
+    </g>
+  </g>
+</svg>

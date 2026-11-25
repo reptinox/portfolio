@@ -1,0 +1,14 @@
+:root {
+  --paper: #fbfaf7;
+  --ink: #242421;
+  --muted: #595953;
+  --blue: #3349dd;
+  --line: #d5d4cb;
+  --wash: #f1f0e9;
+  --sans: 'DM Sans Variable', 'Segoe UI', Arial, sans-serif;
+  --display: 'Instrument Serif', Georgia, serif;
+  --mono: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+  --container: 76rem;
+  --gutter: clamp(1.25rem, 6.1vw, 6.5rem);
+  --radius: 0.35rem;
+}
